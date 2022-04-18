@@ -3,7 +3,7 @@ import { ComponentStory, type ComponentMeta } from "@storybook/react";
 import EmployeeCard from "./EmployeeCard";
 
 export default {
-  title: "EmployeeCard",
+  title: "Employee Card",
   component: EmployeeCard,
 } as ComponentMeta<typeof EmployeeCard>;
 
@@ -27,3 +27,5 @@ EmployeeCard1.parameters = {
     url: "https://www.figma.com/file/WUYty59y1om6I6ejBzXVER/Virtual-Friends-Video-Components?node-id=3%3A39",
   },
 };
+
+EmployeeCard1.storyName = "Employee Card";

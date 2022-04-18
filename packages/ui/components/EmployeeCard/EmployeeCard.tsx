@@ -13,7 +13,7 @@ export interface EmployeeCardProps {
 
 const EmployeeCard: React.FC<EmployeeCardProps> = (props) => {
   return (
-    <div className="relative flex h-72 w-56 items-end overflow-hidden rounded-lg px-6 py-5 shadow-2xl">
+    <div className="relative flex h-72 w-56 items-end overflow-hidden rounded-lg px-6 py-5 font-Roboto shadow-2xl">
       {/* Employee Image */}
       <img
         className="absolute left-0 top-0 h-full w-full bg-cover"
