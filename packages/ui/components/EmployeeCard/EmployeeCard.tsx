@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-export interface EmployeeCardProps {
+interface EmployeeCardProps {
   name: string;
   company: string;
   phone?: string;
@@ -57,3 +57,4 @@ const EmployeeCard: React.FC<EmployeeCardProps> = (props) => {
 };
 
 export default EmployeeCard;
+export type { EmployeeCardProps };
